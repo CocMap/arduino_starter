@@ -9,6 +9,7 @@ Description: 12 LED lines with different colors are sticked
 - Pattern 3: 4 whites - 2 green - 2 red - 2 yellow - 2 blue
  */
 // Name LED light lines with the digital output pins
+
 int ALL[13] = {2,3,4,5,7,8,9,10,11,12,13};
 
 // Name the switch mode
