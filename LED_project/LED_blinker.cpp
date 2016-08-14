@@ -3,10 +3,14 @@
  
    Description: Tuns on an LED on for one second
                 Turn off for one second, repeatedly
+                
+   Components:  1 LED
+                1 resistor (100 ~ 1k) 
+  
+   Set up:      LED connected to the pin 13 
 */
   
 void setup() {
-  // initialize the digital pin as an output
   // LED is connected to pin 13 on Arduino board
   pinMode (13, OUTPUT);
   }
